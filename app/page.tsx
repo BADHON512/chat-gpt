@@ -30,7 +30,7 @@ const ChatBot = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-gray-900 p-6 text-white">
+    <div className="flex flex-col h-screen bg-gray-900 p-6 text-white ">
       <h1 className="text-2xl font-bold text-center">ChatGPT Bot</h1>
       <div className="flex-1 overflow-y-auto p-4 bg-gray-800 shadow-md rounded-lg my-4 max-h-[70vh]">
         {messages.map((msg, index) => (
