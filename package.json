@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.5",
+    "@react-three/fiber": "^9.1.1",
+    "@react-three/gltfjsx": "^4.3.4",
+    "@react-three/rapier": "^2.0.0",
+    "drei": "^2.2.21",
     "next": "15.2.4",
     "openai": "^4.90.0",
     "react": "^19.0.0",
