@@ -28,6 +28,7 @@ export default function Game() {
   return (
     <div className="w-screen h-screen bg-blue-500" onClick={handleJump}>
       <Canvas shadows camera={{ position: [0, 2, 5], fov: 50 }}>
+        
         <Suspense fallback={null}>
           <OrbitControls />
           <ambientLight intensity={0.5} />
